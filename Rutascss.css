@@ -1,0 +1,22 @@
+body{
+    width: 80%;
+    margin: auto;
+    
+}
+
+div{
+    width: 100%;
+    margin: 0;
+    padding: 0;   
+}
+
+img{
+    width: 33%;
+    vertical-align: top;
+    /*margin-bottom: -5px;*/
+    
+}
+
+h1{
+    text-align: center;
+}
