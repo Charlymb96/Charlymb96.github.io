@@ -1,0 +1,74 @@
+body{
+    margin: auto;
+    width: 100% ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    background-color: rgb(66, 147, 240);
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+li:hover{
+    color: white;
+    background-color: rgb(143, 195, 255);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#logo{
+    width: 3%;
+    display: inline-block;
+    vertical-align: -8px;
+}
+
+#primertexto3{
+    color: black;
+    padding: 20px;
+}
+
+#enlaces{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#playmoverso{
+    color: black;
+    padding: 20px;
+}
+
+#guiapallol{
+    color: black;
+    padding: 20px;
+}
+
+#universo{
+    color: black;
+    padding: 20px;
+}
+#animes{
+    color: black;
+    padding: 20px;
+}
