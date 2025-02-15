@@ -3,3 +3,4 @@ Allow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://charlymb96.github.io/sitemap.xml
