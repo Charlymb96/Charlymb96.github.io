@@ -47,6 +47,12 @@ img{
     text-align: center;
 }
 
+#funkobanner1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 
 #fusion{
     width: 50%;
@@ -138,6 +144,7 @@ footer{
     width: 40%;
     margin-left: 28%;
     margin-bottom: 30px;
+    
 }
 
 #chase1{
@@ -244,12 +251,6 @@ figure{
 }
 
 
-@media (max-width:480px){
-    nav{
-        display: none;
-    }
-}
-
 .caja{
     border: 3px solid black;
     font-weight: bold;
@@ -288,7 +289,37 @@ div:nth-of-type(7){
 
 
 #comicfunkos2{
-  max-width: 1000px;       
+  width: 80%;      
   margin: 0 auto; 
   padding: 10px;
+  padding-bottom: 30px;
+}
+
+
+@media (max-width:780px){
+    ul{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contenidosection{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    }
+
+    #chase{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
+    
+    }
+
+    li{
+        width: 100%;
+        border-bottom: 3px solid rgb(0, 0, 0);
+    }
+
 }
